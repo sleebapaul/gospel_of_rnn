@@ -110,7 +110,7 @@ venv.bak/
 # Json
 
 *.json
-*.txt
+# *.txt
 
 # General
 .DS_Store
