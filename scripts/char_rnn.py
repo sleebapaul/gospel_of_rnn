@@ -1,7 +1,8 @@
-# Char RNN model of Andrej Karpathy functionized 
+# Char RNN model of Andrej Karpathy functionized
 # https://gist.githubusercontent.com/karpathy/d4dee566867f8291f086/raw/119a6930b670bced5800b6b03ec4b8cb6b8ff4ec/min-char-rnn.py
 
 import numpy as np
+
 
 def lossFun(inputs, targets, hprev):
     """
@@ -67,6 +68,7 @@ def sample(h, seed_ix, n):
 
 # model parameters
 
+
 def model(hidden_size, vocab_size):
     Wxh = np.random.randn(hidden_size, vocab_size)*0.01  # input to hidden
     Whh = np.random.randn(hidden_size, hidden_size)*0.01  # hidden to hidden
@@ -76,6 +78,7 @@ def model(hidden_size, vocab_size):
     return Wxh, Whh, Why, bh, by
 
 # data I/O
+
 
 def read_data(data):
     chars = list(set(data))
