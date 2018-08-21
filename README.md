@@ -19,7 +19,7 @@ This folder contains the different bible version data in JSON format. The versio
 5. Webster's Bible (WBT)
 6. Young's Literal Translation (YLT)
 
-You may download the data from [this github repo](https://github.com/scrollmapper/bible_databases). 
+This data is originally dowloaded from [this github repo](https://github.com/scrollmapper/bible_databases). 
 
 ### raw_gospel_data 
 
