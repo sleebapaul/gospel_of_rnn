@@ -109,7 +109,7 @@ venv.bak/
 
 # Json
 
-*.json
+# *.json
 # *.txt
 
 # General
