@@ -1,8 +1,6 @@
 # Language modelling using PyTorch
 
 ## Folders
-============================
-
 
 ### char_rnn
 
