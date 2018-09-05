@@ -1,0 +1,9 @@
+Validation file used: luke_kjv.txt
+Testing file used:  matthew_wbt.txt
+
+End of training | test loss  0.47 | test perplexity 1.60
+
+Time taken for one epoch in average ~ 90s
+Total epochs ~ 70
+Total time taken ~ 1 hour 45 minutes 
+

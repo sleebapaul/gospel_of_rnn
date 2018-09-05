@@ -31,10 +31,18 @@ This folder contains the data for training the LSTMs which are generated from th
 
 ### notebooks 
 
-This folder contains the Jupyter Notebooks which shows the demo of data fetching and cleaning.  
+This folder contains the Jupyter Notebooks which shows the demo of data fetching, cleaning EDA of bible stats. Bible stats is available in JSON format at root folder. 
 
 ### scripts
 
 The scripts for cleaning and converting raw data to training data is included in the folder. The demos in `notebook` folder comes in action here. 
+
+### best_model 
+
+The folder contains the best trained model, loss vs epochs graph and stats of training. The trained model can be reproduced in [Colab Notebook](https://colab.research.google.com/drive/1euakjbNiZgCfbmCWzT6pIZB2MYZbHjk-).
+
+### Issues of Mark
+
+These folder contains the training results on different validation sets. Using gospel of Mark as validation shows less convergence. 
 
 Happy Learning !
