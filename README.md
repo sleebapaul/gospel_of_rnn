@@ -41,9 +41,13 @@ The scripts for cleaning and converting raw data to training data is included in
 
 The folder contains the best trained model, loss vs epochs graph and stats of training. 
 
-### Issues of Mark
+### issues_of_mark
 
-These folder contains the training results on different validation sets. Using gospel of Mark as validation shows less convergence. 
+The folder contains the training results on different validation sets. Using gospel of Mark as validation shows less convergence. 
+
+### generated_gospels
+
+Some generated samples using trained model using warmup context. 
 
 ## Important Links
 
