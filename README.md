@@ -6,7 +6,7 @@
 
 It contains the character level language modelling in tinyshakespheare dataset using Recurrent Neural Networks implemented with PyTorch. The data set and a well commented jupyter notebook is added in this folder. The jupyter notebook is orignally a Google Colab notebook. If you find it difficult to reproduce the results locally, try it on Google Colaboratory. Anyway you can find the original work at [here](https://drive.google.com/file/d/12pEy-aOS0_PiVkFgxyINmBbtuvB5TqV5/view?usp=sharing).   
 
-A bunch of `sample` folders are added in this folder where you can find the performance of the network at different hyper parameter settings. Each folder will contain a generated text file, a loss vs iterations graph and the saved trained model which can be reused using PyTorch. This is planned as a programming session for this blog post in my personal blog.
+A bunch of `sample` folders are added in this folder where you can find the performance of the network at different hyper parameter settings. Each folder will contain a generated text file, a loss vs iterations graph and the saved trained model which can be reused using PyTorch. This is planned as a programming session for [this blog post in my personal blog](https://sleebapaul.github.io/rnn-tutorial-2/).
 
 ### bible database  
 
@@ -19,7 +19,7 @@ This folder contains the different bible version data in JSON format. The versio
 5. Webster's Bible (WBT)
 6. Young's Literal Translation (YLT)
 
-This data is originally dowloaded from [this github repo](https://github.com/scrollmapper/bible_databases). 
+Bible data is originally dowloaded from [this github repo](https://github.com/scrollmapper/bible_databases). 
 
 ### raw_gospel_data 
 
@@ -39,10 +39,19 @@ The scripts for cleaning and converting raw data to training data is included in
 
 ### best_model 
 
-The folder contains the best trained model, loss vs epochs graph and stats of training. The trained model can be reproduced in [Colab Notebook](https://colab.research.google.com/drive/1euakjbNiZgCfbmCWzT6pIZB2MYZbHjk-).
+The folder contains the best trained model, loss vs epochs graph and stats of training. 
 
 ### Issues of Mark
 
 These folder contains the training results on different validation sets. Using gospel of Mark as validation shows less convergence. 
+
+## Important Links
+
+Medium Post: 
+
+Google Colab Link: https://colab.research.google.com/drive/1euakjbNiZgCfbmCWzT6pIZB2MYZbHjk-
+
+The trained model can be reproduced in [Colab Notebook](https://colab.research.google.com/drive/1euakjbNiZgCfbmCWzT6pIZB2MYZbHjk-). Though, I've added the copy of Colab Notebook as `pytorch_LSTM.ipynb` for the local reference, I recommend the reader to make efforts for reproducing the results at Google Colaboratory.  
+
 
 Happy Learning !
