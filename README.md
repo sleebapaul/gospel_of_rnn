@@ -51,11 +51,12 @@ Some generated samples using trained model using warmup context.
 
 ## Important Links
 
-Medium Post: 
+Medium Post: https://medium.com/@sleebapaul/gospel-of-lstms-how-i-wrote-5th-gospel-of-bible-using-lstms-4cffa70e5f1a
 
 Google Colab Link: https://colab.research.google.com/drive/1euakjbNiZgCfbmCWzT6pIZB2MYZbHjk-
 
-The trained model can be reproduced in [Colab Notebook](https://colab.research.google.com/drive/1euakjbNiZgCfbmCWzT6pIZB2MYZbHjk-). Though, I've added the copy of Colab Notebook as `pytorch_LSTM.ipynb` for the local reference, I recommend the reader to make efforts for reproducing the results at Google Colaboratory.  
+The trained model can be reproduced in Colab Notebook. Though, I've added the copy of Colab Notebook as `pytorch_LSTM.ipynb` for the local reference, I recommend the reader to make efforts for reproducing the results at Google Colaboratory.  
 
+I've added the Gospel of LSTMs `epub` version in the repo. Please use it for better reading experience.   
 
 Happy Learning !
